@@ -869,16 +869,14 @@
 </div>
 <script>
   const container = document.querySelector(".container");
-  const cards = Array.from(document.querySelectorAll(".card"));
+  const cards = document.querySelectorAll(".card");
 
-  function sortCards() {
-    const sorted = cards.sort((a, b) => {
-      const aChecked = a.querySelector("input").checked;
-      const bChecked = b.querySelector("input").checked;
-      return bChecked - aChecked; // checked ide hore
-    });
-
-    sorted.forEach(card => container.appendChild(card));
+  function moveCard(card, checked) {
+    if (checked) {
+      container.prepend(card); // presunie hore
+    } else {
+      container.appendChild(card); // presunie dole
+    }
   }
 
   cards.forEach(card => {
@@ -887,21 +885,20 @@
 
     if (!checkbox || !id) return;
 
-    // načítanie uloženého stavu
+    // načítanie stavu
     if (localStorage.getItem(id) === "true") {
       checkbox.checked = true;
       card.classList.add("checked");
+      container.prepend(card); // už pri načítaní ide hore
     }
 
     checkbox.addEventListener("change", () => {
       localStorage.setItem(id, checkbox.checked);
       card.classList.toggle("checked");
-      sortCards(); // zoradí po kliknutí
+
+      moveCard(card, checkbox.checked); // 🔥 toto je kľúč
     });
   });
-
-  // zoradenie pri načítaní
-  sortCards();
 </script>
 </body>
 </html>
