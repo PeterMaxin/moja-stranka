@@ -2,10 +2,64 @@
 <html lang="sk">
 <head>
   <meta charset="UTF-8">
-  <title>Moja stránka</title>
+  <title>Motýle Slovenska</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #eaf6ff;
+      margin: 0;
+    }
+    h1 {
+      text-align: center;
+      padding: 20px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      width: 250px;
+      margin: 15px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    }
+    .card img {
+      width: 100%;
+    }
+    .card-content {
+      padding: 10px;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Ahoj 👋</h1>
-  <p>Toto je moja prvá stránka cez GitHub Pages.</p>
-</body>
-</html>
+
+<h1>🦋 Motýle Slovenska</h1>
+
+<div class="container">
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Inachis_io_LC0261.jpg">
+    <div class="card-content">
+      <h3>Babočka pávooká</h3>
+      <p>Celé Slovensko</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Papilio_machaon_MHNT.jpg">
+    <div class="card-content">
+      <h3>Vidlochvost feniklový</h3>
+      <p>Nížiny a teplé oblasti</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Vanessa_atalanta_LC0348.jpg">
+    <div class="card-content">
+      <h3>Babočka admirálska</h3>
+      <p>Lesy a záhrady</p>
+    </div>
