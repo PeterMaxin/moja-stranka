@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Motýle Slovenska</title>
+
   <style>
     body {
       font-family: Arial;
@@ -25,12 +26,16 @@
       border-radius: 10px;
       overflow: hidden;
       box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+      padding-bottom: 10px;
     }
     .card img {
       width: 100%;
     }
     .card-content {
       padding: 10px;
+    }
+    .checked {
+      background: #d4ffd4;
     }
   </style>
 </head>
@@ -41,25 +46,61 @@
 
 <div class="container">
 
-  <div class="card">
+  <div class="card" data-id="motyl1">
     <img src="babockapavooka.jpg">
     <div class="card-content">
       <h3>Babočka pávooká</h3>
       <p>Celé Slovensko</p>
+      <label>
+        <input type="checkbox"> Mám ho
+      </label>
     </div>
   </div>
 
-  <div class="card">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Papilio_machaon_MHNT.jpg">
+  <div class="card" data-id="motyl2">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Papilio_machaon_MHNT.jpg/800px-Papilio_machaon_MHNT.jpg">
     <div class="card-content">
       <h3>Vidlochvost feniklový</h3>
       <p>Nížiny a teplé oblasti</p>
+      <label>
+        <input type="checkbox"> Mám ho
+      </label>
     </div>
   </div>
 
-  <div class="card">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Vanessa_atalanta_LC0348.jpg">
+  <div class="card" data-id="motyl3">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Vanessa_atalanta_LC0348.jpg/800px-Vanessa_atalanta_LC0348.jpg">
     <div class="card-content">
       <h3>Babočka admirálska</h3>
       <p>Lesy a záhrady</p>
+      <label>
+        <input type="checkbox"> Mám ho
+      </label>
     </div>
+  </div>
+
+</div>
+
+<script>
+  const cards = document.querySelectorAll(".card");
+
+  cards.forEach(card => {
+    const checkbox = card.querySelector("input");
+    const id = card.getAttribute("data-id");
+
+    // načítanie uloženého stavu
+    if (localStorage.getItem(id) === "true") {
+      checkbox.checked = true;
+      card.classList.add("checked");
+    }
+
+    // uloženie pri kliknutí
+    checkbox.addEventListener("change", () => {
+      localStorage.setItem(id, checkbox.checked);
+      card.classList.toggle("checked");
+    });
+  });
+</script>
+
+</body>
+</html>
