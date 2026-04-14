@@ -39,22 +39,11 @@
   </style>
 </head>
 <body>
-  <div style="text-align:center; margin:20px;">
-  <select id="monthFilter">
-    <option value="">-- Vyber mesiac --</option>
-    <option value="marec">Marec</option>
-    <option value="april">Apríl</option>
-    <option value="maj">Máj</option>
-    <option value="jun">Jún</option>
-    <option value="jul">Júl</option>
-    <option value="august">August</option>
-    <option value="september">September</option>
-    <option value="oktober">Október</option>
-  </select>
+ 
 </div>
 <h1>🦋 Moja zbierka motýľov 🦋</h1>
 <div class="container">
-  <div class="card" data-id="babočka-pávooká" data-months="marec,april,maj,jun,jul,august,september,oktober">
+  <div class="card" data-id="babočka-pávooká">
   <img src="https://www.jutro.sk/resize/e/800/800/files/blog/rastliny/babocka-v-zahrade.webp">
   <div class="card-content">
     <h3>Babočka pávooká</h3>
@@ -66,7 +55,7 @@
     </label>
   </div>
 </div>
-<div class="card" data-id="babočka-admirálska" data-months="maj,jun,jul,august,september,oktober">
+<div class="card" data-id="babočka-admirálska">
   <img src="https://mojeterarko.cz/wp-content/uploads/2022/10/babocka-admiral.jpg">
   <div class="card-content">
     <h3>Babočka admirálska</h3>
@@ -881,21 +870,7 @@
 
 </div>
 <script>
-   const filter = document.getElementById("monthFilter");
-
-  filter.addEventListener("change", () => {
-    const selected = filter.value;
-
-    document.querySelectorAll(".card").forEach(card => {
-      const months = card.getAttribute("data-months");
-
-      if (!selected || months.includes(selected)) {
-        card.style.display = "block";
-      } else {
-        card.style.display = "none";
-      }
-    });
-  });
+ 
   const container = document.querySelector(".container");
 
   document.querySelectorAll(".card").forEach(card => {
