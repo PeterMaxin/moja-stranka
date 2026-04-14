@@ -870,57 +870,47 @@
 <script>
   const container = document.querySelector(".container");
 
-  function sortCards() {
+  function sortTopCards() {
     const cards = Array.from(container.children);
 
-    cards.sort((a, b) => {
-      const aChecked = a.querySelector("input").checked;
-      const bChecked = b.querySelector("input").checked;
+    const checked = cards.filter(card => card.querySelector("input").checked);
+    const unchecked = cards.filter(card => !card.querySelector("input").checked);
 
-      // najprv checkbox
-      if (aChecked !== bChecked) {
-        return bChecked - aChecked;
-      }
-
-      // potom abeceda
+    // zoradí len tie čo máš
+    checked.sort((a, b) => {
       const aName = a.querySelector("h3").innerText.toLowerCase();
       const bName = b.querySelector("h3").innerText.toLowerCase();
-
       return aName.localeCompare(bName, "sk");
     });
 
-    // 🔥 vyčisti container a znovu vlož
+    // vyčisti a vlož späť
     container.innerHTML = "";
-    cards.forEach(card => container.appendChild(card));
+    checked.forEach(card => container.appendChild(card));
+    unchecked.forEach(card => container.appendChild(card));
   }
 
-  function init() {
-    const cards = document.querySelectorAll(".card");
+  document.querySelectorAll(".card").forEach(card => {
+    const checkbox = card.querySelector("input");
+    const id = card.getAttribute("data-id");
 
-    cards.forEach(card => {
-      const checkbox = card.querySelector("input");
-      const id = card.getAttribute("data-id");
+    if (!checkbox || !id) return;
 
-      if (!checkbox || !id) return;
+    // načítanie
+    if (localStorage.getItem(id) === "true") {
+      checkbox.checked = true;
+      card.classList.add("checked");
+    }
 
-      // načítanie uloženého stavu
-      if (localStorage.getItem(id) === "true") {
-        checkbox.checked = true;
-        card.classList.add("checked");
-      }
+    checkbox.addEventListener("change", () => {
+      localStorage.setItem(id, checkbox.checked);
+      card.classList.toggle("checked");
 
-      checkbox.addEventListener("change", () => {
-        localStorage.setItem(id, checkbox.checked);
-        card.classList.toggle("checked");
-
-        sortCards(); // 🔥 TERAZ SA URČITE SPUSTÍ
-      });
+      sortTopCards(); // 🔥 len toto treba
     });
+  });
 
-    sortCards();
-  }
-
-  init();
+  // zoradenie pri načítaní
+  sortTopCards();
 </script>
 </body>
 </html>
