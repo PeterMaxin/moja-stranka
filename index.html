@@ -870,47 +870,30 @@
 <script>
   const container = document.querySelector(".container");
 
-  function sortTopCards() {
-    const cards = Array.from(container.children);
-
-    const checked = cards.filter(card => card.querySelector("input").checked);
-    const unchecked = cards.filter(card => !card.querySelector("input").checked);
-
-    // zoradí len tie čo máš
-    checked.sort((a, b) => {
-      const aName = a.querySelector("h3").innerText.toLowerCase();
-      const bName = b.querySelector("h3").innerText.toLowerCase();
-      return aName.localeCompare(bName, "sk");
-    });
-
-    // vyčisti a vlož späť
-    container.innerHTML = "";
-    checked.forEach(card => container.appendChild(card));
-    unchecked.forEach(card => container.appendChild(card));
-  }
-
   document.querySelectorAll(".card").forEach(card => {
     const checkbox = card.querySelector("input");
     const id = card.getAttribute("data-id");
 
     if (!checkbox || !id) return;
 
-    // načítanie
+    // načítanie stavu
     if (localStorage.getItem(id) === "true") {
       checkbox.checked = true;
       card.classList.add("checked");
+      container.prepend(card); // 🔥 dá hore
     }
 
     checkbox.addEventListener("change", () => {
       localStorage.setItem(id, checkbox.checked);
       card.classList.toggle("checked");
 
-      sortTopCards(); // 🔥 len toto treba
+      if (checkbox.checked) {
+        container.prepend(card); // 🔥 okamžite hore
+      } else {
+        container.appendChild(card); // dole
+      }
     });
   });
-
-  // zoradenie pri načítaní
-  sortTopCards();
 </script>
 </body>
 </html>
