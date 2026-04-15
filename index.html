@@ -3,57 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <title>Motýle Slovenska</title>
-  <style>
+ <style>
   body {
     font-family: Arial;
     background: #eaf6ff;
     margin: 0;
   }
+
   h1 {
     text-align: center;
     padding: 20px;
   }
+
+  /* GRID – opravený */
   .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 250px);
-  gap: 20px;
-  justify-content: center;
-}
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 20px;
+    justify-content: center;
+  }
+
+  /* KARTA */
   .card {
     background: white;
     width: 250px;
-    margin: 15px;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     padding-bottom: 10px;
   }
+
   .card img {
     width: 100%;
+    display: block;
   }
+
   .card-content {
     padding: 10px;
   }
+
   .checked {
     background: #d4ffd4;
   }
 
-  /* názvy motýľov */
+  /* odkazy */
   .card-content a {
-    text-decoration: none !important;
-    color: black !important;
+    text-decoration: none;
+    color: black;
   }
 
-  /* HLAVNÝ FIX */
   a {
-    text-decoration: none !important;
-    color: inherit !important;
+    text-decoration: none;
+    color: inherit;
   }
 
-    .card-content div {
-  font-size: 20px;
-  margin-bottom: 5px;
-}
+  /* ikonky */
+  .card-content div {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
 </style>
 </head>
 <body>
