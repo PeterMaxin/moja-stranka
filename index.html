@@ -1210,7 +1210,6 @@
 
     if (!checkbox || !id) return;
 
-    // načítanie stavu
     if (localStorage.getItem(id) === "true") {
       checkbox.checked = true;
       card.classList.add("checked");
@@ -1229,7 +1228,7 @@
     });
   });
 
-  // 🔥 FILTER FUNKCIA
+  // ✅ FIXNUTÝ FILTER
   function filterCards(icon) {
     document.querySelectorAll(".card").forEach(card => {
       const icons = card.querySelector(".icons")?.textContent || "";
@@ -1239,17 +1238,16 @@
       const notChecked = !checkbox?.checked;
 
       if (hasIcon && notChecked) {
-        card.style.display = "block";
+        card.style.display = ""; // 🔥 KĽÚČOVÝ FIX
       } else {
         card.style.display = "none";
       }
     });
   }
 
-  // 🔥 ZOBRAZIŤ VŠETKO
   function showAll() {
     document.querySelectorAll(".card").forEach(card => {
-      card.style.display = "block";
+      card.style.display = ""; // 🔥 KĽÚČOVÝ FIX
     });
   }
 </script>
