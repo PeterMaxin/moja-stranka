@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <title>Motýle Slovenska</title>
+ <style>
+  body {
+    font-family: Arial;
+    background: #eaf6ff;
+    margin: 0;
+  }
+
+  h1 {
+    text-align: center;
+    padding: 20px;
+  }
+   
+  /* GRID – opravený */
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 20px;
+    justify-content: center;
+  }
+
+  /* KARTA */
+  .card {
+    background: white;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    padding-bottom: 10px;
+  }
+
+  .card img {
+    width: 100%;
+    display: block;
+  }
+
+  .card-content {
+    padding: 10px;
+  }
+
+  .checked {
+    background: #d4ffd4;
+  }
+
+  /* odkazy */
+  .card-content a {
+    text-decoration: none;
+    color: black;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  /* ikonky */
+  .card-content div {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+</style>
+</head>
+<body>
+ 
+  <a href="https://butterfly-monitoring.net/sites/default/files/Pdf/Field%20Guides/Slovak%20FG%20eBMS%20commonSp%20-%20Slovakv1%20final.pdf">
+<h1>🦋 Moja zbierka motýľov 🦋</h1>
+    </a>
+<div class="container">
+
+  
+  <div class="card" data-id="babočka-pávooká">
+  <img src="https://www.jutro.sk/resize/e/800/800/files/blog/rastliny/babocka-v-zahrade.webp">
+  <div class="card-content">
+    <div>🌿🍎</div>
+    <a href="https://lepidoptera.sk/aglais_io">
+      <h3>Babočka pávooká</h3>
+    </a>
+    <p><b>Výskyt:</b> celé Slovensko – záhrady, lúky, mestá</p>
+    <p><b>Najpočetnejší výskyt:</b> záhrady, parky, lúky a okraje lesov – veľmi bežný druh od nížin po hory</p>
+    <p><b>Mesiace:</b> marec – október (zimuje ako dospelý jedinec)</p>
+    <p><b>Čas:</b> slnečné dni, najmä dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="babočka-admirálska">
+  <img src="https://mojeterarko.cz/wp-content/uploads/2022/10/babocka-admiral.jpg">
+  <div class="card-content">
+    <div>🌳🍎</div>
+    <a href="https://lepidoptera.sk/vanessa_atalanta">
+    <h3>Babočka admirálska</h3>
+      </a>
+    <p><b>Výskyt:</b> lesy, záhrady, mestá</p>
+    <p><b>Najpočetnejší výskyt:</b> záhrady, parky, lesné okraje a miesta s výskytom pŕhľavy</p>
+    <p><b>Mesiace:</b> máj – október (ťahavý druh)</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="babočka-bodliaková">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2012/09/01/jan_hrasko_343908.jpg">
+  <div class="card-content">
+    <div>🌿🍎</div>
+     <a href="https://lepidoptera.sk/vanessa_cardui">
+    <h3>Babočka bodliaková</h3>
+       </a>
+    <p><b>Výskyt:</b> lúky, polia, záhrady</p>
+    <p><b>Najpočetnejší výskyt:</b> otvorené trávnaté plochy, lúky, polia a záhrady – migrujúci druh</p>
+    <p><b>Mesiace:</b> apríl – september (migrujúci druh)</p>
+    <p><b>Čas:</b> celý deň, hlavne slnečno</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="babočka-sieťkovaná">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2009/04/26/maros_margetin_150549.jpg">
+  <div class="card-content">
+    <div>🌳🌾</div>
+    <a href="https://lepidoptera.sk/araschnia_levana">
+    <h3>Babočka sieťkovaná</h3>
+      </a>
+    <p><b>Výskyt:</b> lesy, okraje lesov</p>
+    <p><b>Najpočetnejší výskyt:</b> lesné okraje, svetliny a vlhšie miesta s výskytom pŕhľavy</p>
+    <p><b>Mesiace:</b> apríl – september (2 generácie)</p>
+    <p><b>Čas:</b> dopoludnie a popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+  
+  <div class="card" data-id="babočka-zubatokrídlá">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2013/08/04/Polygonia-c-album/rudolf_cafal_404673_o.jpg">
+  <div class="card-content">
+    <div>🌳🍎</div>
+    <a href="https://lepidoptera.sk/polygonia_c-album">
+    <h3>Babočka zubatokrídlá</h3>
+      </a>
+    <p><b>Výskyt:</b> lesy, záhrady, parky</p>
+    <p><b>Najpočetnejší výskyt:</b> lesné okraje, záhrady, parky a svetliny s výskytom pŕhľavy</p>
+    <p><b>Mesiace:</b> marec – október (zimuje ako dospelý jedinec)</p>
+    <p><b>Čas:</b> slnečné dni, často popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="očkáň-timotejkový">
+  <img src="https://lepidoptera.sk/sites/default/files/motyle/galathea_MO.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://lepidoptera.sk/melanargia_galathea">
+    <h3>Očkáň timotejkový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, trávnaté plochy</p>
+    <p><b>Najpočetnejší výskyt:</b> kvitnúce lúky, pasienky a otvorené trávnaté plochy</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="očkáň-čiernohnedý">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2009/07/19/viliam_ridzon_163357.jpg">
+  <div class="card-content">
+    <div>🌿🌳</div>
+    <a href="https://lepidoptera.sk/erebia_ligea">
+    <h3>Očkáň čiernohnedý</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, lesné okraje</p>
+    <p><b>Najpočetnejší výskyt:</b> horské a podhorské lúky, lesné okraje a svetliny</p>
+    <p><b>Mesiace:</b> máj – august</p>
+    <p><b>Čas:</b> celý deň, najmä slnečno</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="očkáň-lúčny">
+  <img src="https://lepidoptera.sk/sites/default/files/motyle/jurtina_FO.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://lepidoptera.sk/maniola_jurtina">
+    <h3>Očkáň lúčny</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, pasienky</p>
+    <p><b>Najpočetnejší výskyt:</b> lúky, pasienky a trávnaté plochy od nížin po hory – veľmi bežný druh</p>
+    <p><b>Mesiace:</b> jún – september</p>
+    <p><b>Čas:</b> celý deň</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+ <div class="card" data-id="očkáň-obyčajný">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2015/06/29/vojtech_psenka_527194.jpg">
+  <div class="card-content">
+    <div>🌿🍎</div>
+    <a href="https://www.time-zone.sk/2025/04/10/ockan-obycajny/">
+    <h3>Očkáň obyčajný</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, záhrady</p>
+    <p><b>Najpočetnejší výskyt:</b> lúky, záhrady, parky a trávnaté plochy – veľmi bežný druh</p>
+    <p><b>Mesiace:</b> máj – september</p>
+    <p><b>Čas:</b> celý deň</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="očkáň-pohánkový">
+  <img src="https://lh5.googleusercontent.com/proxy/BN-yHxTHioz4zaFtilMiBSTXgH_9nX7cnQ2Ijb8mea3g2pPXnkRfQ91ng5TKqDqJpU3omAJ63bcy3OLey7SPL_Rifed9Hks">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://lepidoptera.sk/coenonympha_pamphilus/">
+    <h3>Očkáň pohánkový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, polia</p>
+    <p><b>Najpočetnejší výskyt:</b> suchšie lúky, pasienky, polia a trávnaté plochy</p>
+    <p><b>Mesiace:</b> júl – september</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="mlynárik-repový">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2008/06/29/valentin_harcarik_114163.jpg">
+  <div class="card-content">
+    <div>🌿🍎</div>
+     <a href="https://lepidoptera.sk/pieris_rapae">
+    <h3>Mlynárik repový</h3>
+       </a>
+    <p><b>Výskyt:</b> záhrady, polia, lúky</p>
+    <p><b>Najpočetnejší výskyt:</b> poľnohospodárske oblasti, záhrady a lúky – veľmi bežný druh</p>
+    <p><b>Mesiace:</b> apríl – október (viac generácií)</p>
+    <p><b>Čas:</b> celý deň, najmä slnečno</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="mlynárik-rezedový">
+  <img src="https://lepidoptera.sk/sites/default/files/motyle/daplidice_08.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://lepidoptera.sk/pontia_daplidice">
+    <h3>Mlynárik rezedový</h3>
+      </a>
+    <p><b>Výskyt:</b> suché lúky, teplé oblasti</p>
+    <p><b>Najpočetnejší výskyt:</b> suché lúky, stepné oblasti a teplé otvorené stanovištia</p>
+    <p><b>Mesiace:</b> máj – september</p>
+    <p><b>Čas:</b> slnečné dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="žltáčik-rešetliakový">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2017/08/07/Gonepteryx-rhamni/marek_kotacka_629422_o.jpg">
+  <div class="card-content">
+    <div>🌳🌾🍎</div>
+    <a href="https://lepidoptera.sk/gonepteryx_rhamni">
+    <h3>Žltáčik rešetliakový</h3>
+      </a>
+    <p><b>Výskyt:</b> lesy, kroviny, záhrady</p>
+    <p><b>Najpočetnejší výskyt:</b> lesné okraje, kroviny a záhrady s výskytom rešetliaka</p>
+    <p><b>Mesiace:</b> marec – október (zimuje ako dospelý jedinec)</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+<div class="card" data-id="žltáčik-ranostajový">
+  <img src="https://www.pyrgus.de/bilder1/pieridae/hyale_6im2018.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://lepidoptera.sk/colias_hyale">
+    <h3>Žltáčik ranostajový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, polia, otvorená krajina</p>
+    <p><b>Najpočetnejší výskyt:</b> lúky, pasienky, polia a otvorená krajina – často v poľnohospodárskych oblastiach</p>
+    <p><b>Mesiace:</b> máj – september</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="žltáčik-vičencový">
+  <img src="https://www.pyrgus.de/bilder1/pieridae/crocea_os.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://lepidoptera.sk/colias_crocea">
+    <h3>Žltáčik vičencový</h3>
+      </a>
+    <p><b>Výskyt:</b> suché lúky, teplé oblasti</p>
+    <p><b>Najpočetnejší výskyt:</b> suché lúky, stepné oblasti a teplé otvorené stanovištia – migrujúci druh</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> slnečné dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="perlovec-malý">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2010/07/23/jaroslav_kuriplach_214337.jpg">
+  <div class="card-content">
+    <div>🌿🌳</div>
+    <a href="https://lepidoptera.sk/issoria_lathonia">
+    <h3>Perlovec malý</h3>
+      </a>
+    <p><b>Výskyt:</b> suché lúky, lesné okraje</p>
+    <p><b>Najpočetnejší výskyt:</b> suché lúky, pasienky a lesné okraje s kvitnúcimi rastlinami</p>
+    <p><b>Mesiace:</b> máj – júl</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="vidlochvost-ovocný">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2009/07/26/viliam_ridzon_164219.jpg">
+  <div class="card-content">
+    <div>🍎</div>
+    <a href="https://lepidoptera.sk/iphiclides_podalirius">
+    <h3>Vidlochvost ovocný</h3>
+      </a>
+    <p><b>Výskyt:</b> ovocné sady, záhrady</p>
+    <p><b>Najpočetnejší výskyt:</b> ovocné sady, záhrady a teplé oblasti s výskytom ovocných stromov</p>
+    <p><b>Mesiace:</b> máj – august</p>
+    <p><b>Čas:</b> celý deň, najmä slnečno</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="dúhovec-väčší">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Apatura_iris_Weinsberg_20080618_1.jpg">
+  <div class="card-content">
+    <div>🌳💧</div>
+    <a href="https://lepidoptera.sk/apatura_iris">
+    <h3>Dúhovec väčší</h3>
+      </a>
+    <p><b>Výskyt:</b> listnaté lesy, najmä pri vode</p>
+    <p><b>Najpočetnejší výskyt:</b> lužné a vlhké listnaté lesy, najmä pri riekach a vodných tokoch</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> dopoludnie, slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+ <div class="card" data-id="modráčik-obyčajný">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Common_blue_butterfly_%28Polyommatus_icarus%29_male_3.JPG">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://www.time-zone.sk/2025/04/14/modracik-obycajny-polyommatus-icarus/">
+    <h3>Modráčik obyčajný</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, pasienky</p>
+    <p><b>Najpočetnejší výskyt:</b> lúky, pasienky a trávnaté plochy od nížin po hory – veľmi bežný druh</p>
+    <p><b>Mesiace:</b> máj – september</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="súmračník-hrdzavý">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2021/05/23/barnabas_bajcsi_791787.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://www.nahuby.sk/obrazok_detail.php?obrazok_id=666049">
+    <h3>Súmračník hrdzavý</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, suché oblasti</p>
+    <p><b>Najpočetnejší výskyt:</b> suché lúky, pasienky a otvorené trávnaté plochy</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="súmračník-jahodový">
+  <img src="https://flog.pravda.sk/data/flog/fersa2/658108/kNF_658108_orig.jpg">
+  <div class="card-content">
+    <div>🌿🌳</div>
+    <a href="https://lepidoptera.sk/pyrgus_malvae">
+    <h3>Súmračník jahodový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, okraje lesov</p>
+    <p><b>Najpočetnejší výskyt:</b> lúky, pasienky a lesné okraje s výskytom jahodníka</p>
+    <p><b>Mesiace:</b> máj – júl</p>
+    <p><b>Čas:</b> dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="súmračník-čiarkavý">
+  <img src="https://lepidoptera.sk/sites/default/files/motyle/lineola_MO.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://lepidoptera.sk/thymelicus_lineola">
+    <h3>Súmračník čiarkavý</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, otvorená krajina</p>
+    <p><b>Najpočetnejší výskyt:</b> lúky, pasienky a otvorená krajina – veľmi bežný druh</p>
+    <p><b>Mesiace:</b> jún – september</p>
+    <p><b>Čas:</b> celý deň</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="ohniváčik-čiernokrídly">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2008/05/19/viliam_ridzon_107720.jpg">
+  <div class="card-content">
+    <div>🌿💧</div>
+    <a href="https://lepidoptera.sk/lycaena_phlaeas">
+    <h3>Ohniváčik čiernokrídly</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, vlhké oblasti</p>
+    <p><b>Najpočetnejší výskyt:</b> lúky, pasienky aj vlhšie miesta – veľmi prispôsobivý druh</p>
+    <p><b>Mesiace:</b> máj – august</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+ <div class="card" data-id="mlynarik-zeruchovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2009/04/20/peter_bagin_149921.jpg">
+  <div class="card-content">
+    <div>💧🌿</div>
+    <a href="https://lepidoptera.sk/anthocharis_cardamines">
+    <h3>Mlynárik žeruchový</h3>
+      </a>
+    <p><b>Výskyt:</b> vlhké lúky, pri vode</p>
+    <p><b>Najpočetnejší výskyt:</b> vlhké lúky, mokrade a okraje potokov s výskytom žeruchy</p>
+    <p><b>Mesiace:</b> apríl – jún</p>
+    <p><b>Čas:</b> dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="mlynarik-kapustovy">
+  <img src="https://www.time-zone.sk/wp-content/uploads/2025/04/original-14.jpeg">
+  <div class="card-content">
+    <div>🍎🌿</div>
+    <a href="https://www.biomonitoring.sk/Registration/AtlasAnimal/Detail/71026?ReturnPage=oc_ZooList">
+    <h3>Mlynárik kapustový</h3>
+      </a>
+    <p><b>Výskyt:</b> záhrady, polia</p>
+    <p><b>Najpočetnejší výskyt:</b> záhrady, polia a poľnohospodárske oblasti – veľmi bežný druh</p>
+    <p><b>Mesiace:</b> apríl – október</p>
+    <p><b>Čas:</b> celý deň</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+ <div class="card" data-id="mlynarik-horsky">
+  <img src="https://www.pyrgus.de/bilder1/pieridae/bryoniae_wos.jpg">
+  <div class="card-content">
+    <div>🌿🌳</div>
+    <a href="https://lepidoptera.sk/pieris_bryoniae">
+      <h3>Mlynárik horský</h3>
+    </a>
+    <p><b>Výskyt:</b> lúky, horské oblasti, okraje lesov</p>
+    <p><b>Najpočetnejší výskyt:</b> severné Slovensko – Orava, Liptov, Tatry</p>
+    <p><b>Mesiace:</b> máj – september</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="ockan-jacmienkovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2020/07/01/frantisek_neuschl_754315.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://www.nahuby.sk/obrazok_detail.php?obrazok_id=827354&poradie=27">
+    <h3>Očkáň jačmienkový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, suché oblasti</p>
+    <p><b>Najpočetnejší výskyt:</b> južné Slovensko – Podunajská nížina, suché lúky</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="ockan-murovy">
+  <img src="https://www.time-zone.sk/wp-content/uploads/2025/04/original-19-1.jpeg">
+  <div class="card-content">
+    <div>🪨</div>
+    <a href="https://lepidoptera.sk/lasiommata_megera">
+    <h3>Očkáň múrový</h3>
+      </a>
+    <p><b>Výskyt:</b> skalnaté oblasti, múry</p>
+    <p><b>Najpočetnejší výskyt:</b> celé Slovensko – najmä teplé a suché oblasti</p>
+    <p><b>Mesiace:</b> máj – september</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="bielopasovec-zemolezovy">
+  <img src="https://lepidoptera.sk/sites/default/files/motyle/camilla_FO.jpg">
+  <div class="card-content">
+    <div>🌳</div>
+    <a href="https://lepidoptera.sk/limenitis_camilla">
+    <h3>Bielopásovec zemolezový</h3>
+      </a>
+    <p><b>Výskyt:</b> lesy</p>
+    <p><b>Najpočetnejší výskyt:</b> severné a stredné Slovensko – listnaté lesy (Liptov, Orava)</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+  
+<div class="card" data-id="duhovec-mensi">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2011/07/09/jozak_jozak_277739.jpg">
+  <div class="card-content">
+    <div>🌳💧</div>
+    <a href="https://www.biomonitoring.sk/Registration/AtlasAnimal/Detail/67438?ReturnPage=rg_AnimalList">
+    <h3>Dúhovec menší</h3>
+      </a>
+    <p><b>Výskyt:</b> lesy, najmä pri vode</p>
+    <p><b>Najpočetnejší výskyt:</b> lužné lesy a vlhké listnaté lesy v nížinách a kotlinách Slovenska</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> dopoludnie, slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="bielopasovec-topolovy">
+  <img src="https://lepidoptera.sk/sites/default/files/motyle/populi_f.jpg">
+  <div class="card-content">
+    <div>🌳</div>
+    <a href="https://lepidoptera.sk/limenitis_populi">
+    <h3>Bielopásovec topoľový</h3>
+      </a>
+    <p><b>Výskyt:</b> listnaté lesy</p>
+    <p><b>Najpočetnejší výskyt:</b> rozsiahle listnaté a zmiešané lesy, najmä s topoľmi a osikami, v stredných a vyšších polohách</p>
+    <p><b>Mesiace:</b> jún – júl</p>
+    <p><b>Čas:</b> dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="bielopasovec-stoklasovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2014/01/24/jan_chladok_438536.jpg">
+  <div class="card-content">
+    <div>🌳🌾</div>
+    <a href="https://www.nahuby.sk/obrazok_detail.php?obrazok_id=249680">
+    <h3>Bielopásovec stoklasový</h3>
+      </a>
+    <p><b>Výskyt:</b> lesy, kroviny</p>
+    <p><b>Najpočetnejší výskyt:</b> teplé oblasti s krovinami a okrajmi lesov, najmä v nižších polohách</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> dopoludnie a popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="ockan-ovsikovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2020/08/08/jozef_priscak_759890.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://lepidoptera.sk/minois_dryas">
+    <h3>Očkáň ovsikový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, trávnaté plochy</p>
+    <p><b>Najpočetnejší výskyt:</b> suché a polosuché lúky, pasienky a stepné oblasti v teplejších častiach Slovenska</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="ockan-kostravovy">
+  <img src="https://www.pyrgus.de/bilder1/nymphalidae/arethusana_os.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://lepidoptera.sk/arethusana_arethusa">
+    <h3>Očkáň kostravový</h3>
+      </a>
+    <p><b>Výskyt:</b> suché lúky</p>
+    <p><b>Najpočetnejší výskyt:</b> suché a teplé trávnaté oblasti, stepi a pasienky v nížinách a pahorkatinách</p>
+    <p><b>Mesiace:</b> jún – september</p>
+    <p><b>Čas:</b> celý deň</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+  <div class="card" data-id="ockan-skalny">
+  <img src="https://www.pyrgus.de/bilder1/nymphalidae/briseis_wos.jpg">
+  <div class="card-content">
+    <div>🪨🌿</div>
+    <a href="https://lepidoptera.sk/chazara_briseis">
+    <h3>Očkáň skalný</h3>
+      </a>
+    <p><b>Výskyt:</b> skalnaté svahy, suché lúky</p>
+    <p><b>Najpočetnejší výskyt:</b> suché a skalnaté oblasti, stepné svahy a kamenisté stanovištia</p>
+    <p><b>Mesiace:</b> júl – august</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="babocka-osikova">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Babo%C4%8Dka_osikov%C3%A1.jpg">
+  <div class="card-content">
+    <div>🌳💧</div>
+    <a href="https://lepidoptera.sk/nymphalis_antiopa">
+    <h3>Babočka osiková</h3>
+      </a>
+    <p><b>Výskyt:</b> lesy</p>
+    <p><b>Najpočetnejší výskyt:</b> vlhšie listnaté a zmiešané lesy, najmä s výskytom osiky, často pri vodných tokoch</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="babocka-vrbova">
+  <img src="https://www.biolib.cz/IMG/GAL/450749.jpg">
+  <div class="card-content">
+    <div>🌳💧</div>
+    <a href="https://lepidoptera.sk/nymphalis_xanthomelas">
+    <h3>Babočka vŕbová</h3>
+      </a>
+    <p><b>Výskyt:</b> vlhké lesy, pri vode</p>
+    <p><b>Najpočetnejší výskyt:</b> lužné lesy a vlhké oblasti s vŕbami, najmä v nížinách a pri riekach</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="babocka-zihlavova">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Kleiner_Fuchs_%28Nymphalis_urticae%29.jpg">
+  <div class="card-content">
+    <div>🌿🍎</div>
+    <a href="https://www.biomonitoring.sk/Registration/AtlasAnimal/Detail/68060?ReturnPage=oc_ZooList">
+    <h3>Babočka pŕhľavová</h3>
+      </a>
+    <p><b>Výskyt:</b> záhrady, lúky, mestá</p>
+    <p><b>Najpočetnejší výskyt:</b> veľmi bežný druh – vyskytuje sa takmer na celom území Slovenska od nížin po hory</p>
+    <p><b>Mesiace:</b> marec – október</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="hnedacik-nevadzovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2019/05/31/anna_melichova_704490.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://www.biomonitoring.sk/Registration/AtlasAnimal/Detail/67094?ReturnPage=rg_AnimalList">
+    <h3>Hnedáčik nevädzový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, suché oblasti</p>
+    <p><b>Najpočetnejší výskyt:</b> suché a teplé lúky, pasienky a stepné oblasti v nižších polohách</p>
+    <p><b>Mesiace:</b> máj – júl</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="hnedacik-pystekovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2013/05/22/augustin_barcak_387467.jpg">
+  <div class="card-content">
+    <div>🌿🌳</div>
+    <a href="https://lepidoptera.sk/melitaea_didyma">
+    <h3>Hnedáčik pyštekový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, okraje lesov</p>
+    <p><b>Najpočetnejší výskyt:</b> suché lúky, pasienky a okraje lesov v teplejších oblastiach</p>
+    <p><b>Mesiace:</b> máj – august</p>
+    <p><b>Čas:</b> dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="perlovec-striebropasavy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2011/11/19/Argynnis-paphia/pavol_keselak_302302_o.jpg">
+  <div class="card-content">
+    <div>🌳🌿</div>
+    <a href="https://lepidoptera.sk/argynnis_paphia">
+    <h3>Perlovec striebropásavý</h3>
+      </a>
+    <p><b>Výskyt:</b> lesy, lúky</p>
+    <p><b>Najpočetnejší výskyt:</b> okraje listnatých a zmiešaných lesov, lesné lúky a svetliny</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="perlovec-fialkovy">
+  <img src="https://lepidoptera.sk/sites/default/files/motyle/adippe_MO.jpg">
+  <div class="card-content">
+    <div>🌳🌿</div>
+    <a href="https://lepidoptera.sk/argynnis_adippe">
+    <h3>Perlovec fialkový</h3>
+      </a>
+    <p><b>Výskyt:</b> lesy, lúky</p>
+    <p><b>Najpočetnejší výskyt:</b> lesné lúky, svetliny a okraje lesov v stredných polohách</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="hnedacik-mriezkovany">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2009/06/14/maros_margetin_157051.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://www.biomonitoring.sk/Registration/AtlasAnimal/Detail/70378?ReturnPage=oc_ZooList">
+    <h3>Hnedáčik mriežkovaný</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, suché oblasti</p>
+    <p><b>Najpočetnejší výskyt:</b> suché lúky, pasienky a stepné oblasti v teplejších polohách</p>
+    <p><b>Mesiace:</b> máj – júl</p>
+    <p><b>Čas:</b> slnečné dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="hnedacik-veronikovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2017/06/18/Melitaea-aurelia/milan_janos_622056_o.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="http://www.biomonitoring.sk/Registration/AtlasAnimal/Detail/67091?ReturnPage=oc_ZooGallery">
+    <h3>Hnedáčik veronikový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, pasienky</p>
+    <p><b>Najpočetnejší výskyt:</b> suché až polosuché lúky a pasienky, najmä v nižších a stredných polohách</p>
+    <p><b>Mesiace:</b> máj – jún</p>
+    <p><b>Čas:</b> dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="hnedacik-skorocelovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2020/01/01/rado_orthon_734703.jpg">
+  <div class="card-content">
+    <div>🌿🌳</div>
+    <a href="https://lepidoptera.sk/melitaea_athalia">
+    <h3>Hnedáčik skorocelový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, suché svahy</p>
+    <p><b>Najpočetnejší výskyt:</b> lúky, lesné okraje, svetliny a suchšie svahy v rôznych nadmorských výškach</p>
+    <p><b>Mesiace:</b> máj – júl</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="modracik-rozchodnikovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2006/viliam_ridzon2006_29871.jpg">
+  <div class="card-content">
+    <div>🌿🪨</div>
+    <a href="https://lepidoptera.sk/scolitantides_orion">
+    <h3>Modráčik rozchodníkový</h3>
+      </a>
+    <p><b>Výskyt:</b> suché lúky, skalnaté oblasti</p>
+    <p><b>Najpočetnejší výskyt:</b> skalnaté svahy, vápencové oblasti a suché stanovištia s rozchodníkmi</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="modracik-tmavohnedy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2016/07/16/ivan_gajdacs_580273.jpg">
+  <div class="card-content">
+    <div>💧🌿</div>
+    <a href="https://www.nahuby.sk/obrazok_detail.php?obrazok_id=152016">
+    <h3>Modráčik tmavohnedý</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, vlhké oblasti</p>
+    <p><b>Najpočetnejší výskyt:</b> vlhké lúky, mokrade a okraje vodných plôch</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="modracik-datelinovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2014/05/31/frantisek_sarzik_459407.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://www.nahuby.sk/obrazok_detail.php?obrazok_id=165548">
+    <h3>Modráčik ďatelinový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, pasienky</p>
+    <p><b>Najpočetnejší výskyt:</b> kvitnúce lúky a pasienky s výskytom ďateliny v nížinách aj pahorkatinách</p>
+    <p><b>Mesiace:</b> máj – september</p>
+    <p><b>Čas:</b> celý deň</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="modracik-vikovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2011/08/01/maros_margetin_282861.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://www.nahuby.sk/obrazok_detail.php?obrazok_id=215972">
+    <h3>Modráčik vikový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, pasienky</p>
+    <p><b>Najpočetnejší výskyt:</b> suchšie lúky a pasienky s výskytom vikovitých rastlín</p>
+    <p><b>Mesiace:</b> máj – august</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="modracik-hnedoskvrny">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2010/07/30/jaroslav_kuriplach_215551.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://www.biomonitoring.sk/Registration/AtlasAnimal/Detail/70340">
+    <h3>Modráčik hnedoskvrnný</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, suché oblasti</p>
+    <p><b>Najpočetnejší výskyt:</b> suché a teplé lúky, pasienky a stepné stanovištia</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="modracik-bahniskovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2011/07/31/Maculinea-nausithous/frantisek_neuschl_282609_o.jpg">
+  <div class="card-content">
+    <div>💧</div>
+    <a href="https://www.biomonitoring.sk/Registration/AtlasAnimal/Detail/70341">
+    <h3>Modráčik bahniskový</h3>
+      </a>
+    <p><b>Výskyt:</b> vlhké lúky, mokrade</p>
+    <p><b>Najpočetnejší výskyt:</b> vlhké lúky s výskytom krvavca (Sanguisorba), často v podmáčaných lokalitách</p>
+    <p><b>Mesiace:</b> jún – júl</p>
+    <p><b>Čas:</b> dopoludnie</p>
+    <p style="color:red; font-weight:bold;">
+      OHROZENÝ
+    </p>
+  </div>
+</div>
+
+<div class="card" data-id="modracik-krvavcovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2010/07/21/petra_vlckova_214110.jpg">
+  <div class="card-content">
+    <div>💧</div>
+    <a href="http://www.biomonitoring.sk/Registration/AtlasAnimal/Detail/67115?ReturnPage=oc_ZooList">
+    <h3>Modráčik krvavcový</h3>
+      </a>
+    <p><b>Výskyt:</b> vlhké lúky</p>
+    <p><b>Najpočetnejší výskyt:</b> vlhké lúky s výskytom krvavca (Sanguisorba officinalis), často v podmáčaných lokalitách</p>
+    <p><b>Mesiace:</b> júl – august</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <p style="color:red; font-weight:bold;">
+      OHROZENÝ
+    </p>
+  </div>
+</div>
+
+<div class="card" data-id="modracik-najmensi">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2012/05/28/pavel_valkovic_323397.jpg">
+  <div class="card-content">
+    <div>🌿🪨</div>
+    <a href="https://lepidoptera.sk/cupido_minimus">
+    <h3>Modráčik najmenší</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, suché svahy</p>
+    <p><b>Najpočetnejší výskyt:</b> suché lúky, skalnaté svahy a vápenaté oblasti s výskytom bôbovitých rastlín</p>
+    <p><b>Mesiace:</b> máj – august</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="modracik-kursinovy">
+  <img src="https://www.time-zone.sk/wp-content/uploads/2025/04/original-7-1.jpeg">
+  <div class="card-content">
+    <div>🌾</div>
+    <a href="https://www.time-zone.sk/2025/04/12/modracik-krusinovy/">
+    <h3>Modráčik krušínový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, kroviny</p>
+    <p><b>Najpočetnejší výskyt:</b> kroviny a okraje lesov s výskytom krušiny (Frangula alnus)</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> dopoludnie a popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="ostrozkar-dubovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2013/07/03/marta_e_398462.jpg">
+  <div class="card-content">
+    <div>🌳</div>
+    <a href="https://www.time-zone.sk/2025/04/10/ostrozkar-dubovy/">
+    <h3>Ostrôžkár dubový</h3>
+      </a>
+    <p><b>Výskyt:</b> listnaté lesy</p>
+    <p><b>Najpočetnejší výskyt:</b> teplé listnaté lesy a dubiny, najmä v nižších a stredných polohách</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="ostrozkar-cernicovy">
+  <img src="https://www.time-zone.sk/wp-content/uploads/2025/04/original-1.jpeg">
+  <div class="card-content">
+    <div>🌾</div>
+    <a href="https://www.time-zone.sk/2025/04/11/ostrozkar-cernicovy/">
+    <h3>Ostrôžkár černicový</h3>
+      </a>
+    <p><b>Výskyt:</b> kroviny, lesné okraje</p>
+    <p><b>Najpočetnejší výskyt:</b> kroviny, lesné okraje a svetliny s výskytom ostružín</p>
+    <p><b>Mesiace:</b> júl – september</p>
+    <p><b>Čas:</b> popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="ostrozkar-brezovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2020/08/12/Thecla-betulae/frantisek_sarzik_760355_o.jpg">
+  <div class="card-content">
+    <div>🌳</div>
+    <a href="https://lepidoptera.sk/thecla_betulae">
+    <h3>Ostrôžkár brezový</h3>
+      </a>
+    <p><b>Výskyt:</b> lesy, najmä brezy</p>
+    <p><b>Najpočetnejší výskyt:</b> listnaté lesy a okraje lesov s výskytom briez a trniek</p>
+    <p><b>Mesiace:</b> jún – júl</p>
+    <p><b>Čas:</b> dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="ostrozkar-slivkovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2013/06/03/Satyrium-pruni/frantisek_sarzik_390773_o.jpg">
+  <div class="card-content">
+    <div>🍎</div>
+    <a href="https://www.leps.sk/satyrium-pruni-linnaeus-1758/">
+    <h3>Ostrôžkár slivkový</h3>
+      </a>
+    <p><b>Výskyt:</b> sady, záhrady</p>
+    <p><b>Najpočetnejší výskyt:</b> ovocné sady, záhrady a okraje lesov s výskytom sliviek a trniek</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="ohnivacik-zlatobylovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2007/06/13/viliam_ridzon_67199.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://www.nahuby.sk/obrazok_detail.php?obrazok_id=520364">
+    <h3>Ohniváčik zlatobyľový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, okraje lesov</p>
+    <p><b>Najpočetnejší výskyt:</b> lúky, pasienky a okraje lesov s kvitnúcimi rastlinami</p>
+    <p><b>Mesiace:</b> júl – september</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+  <div class="card" data-id="ohnivacik-modroleskly">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2011/06/23/pavol_kolarik_274066.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://lepidoptera.sk/lycaena_alciphron">
+    <h3>Ohniváčik modrolesklý</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, suché oblasti</p>
+    <p><b>Najpočetnejší výskyt:</b> suché a teplé lúky, pasienky a stepné oblasti</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="ohnivacik-velky">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2010/05/30/marta_e_202938.jpg">
+  <div class="card-content">
+    <div>💧</div>
+    <a href="http://www.biomonitoring.sk/Registration/AtlasAnimal/Detail/70305">
+    <h3>Ohniváčik veľký</h3>
+      </a>
+    <p><b>Výskyt:</b> vlhké lúky, pri vode</p>
+    <p><b>Najpočetnejší výskyt:</b> vlhké lúky, mokrade a okraje vodných tokov</p>
+    <p><b>Mesiace:</b> jún – september</p>
+    <p><b>Čas:</b> slnečné popoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="vidlochvost-feniklovy">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Papilio_Machaon_JPG1a.jpg">
+  <div class="card-content">
+    <div>🌿🍎</div>
+    <a href="https://lepidoptera.sk/papilio_machaon">
+    <h3>Vidlochvost feniklový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, záhrady</p>
+    <p><b>Najpočetnejší výskyt:</b> kvitnúce lúky, záhrady a poľnohospodárske oblasti s mrkvovitými rastlinami</p>
+    <p><b>Mesiace:</b> apríl – september</p>
+    <p><b>Čas:</b> slnečné dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="sumracnik-skorocelovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2009/05/03/maros_margetin_151399.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://www.time-zone.sk/2025/04/12/sumracnik-skorocelovy/">
+    <h3>Súmračník skorocelový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, suché oblasti</p>
+    <p><b>Najpočetnejší výskyt:</b> suché lúky, pasienky a otvorené trávnaté plochy</p>
+    <p><b>Mesiace:</b> máj – august</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="sumracnik-kotucovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2019/04/29/frantisek_sarzik_699639.jpg">
+  <div class="card-content">
+    <div>🌿</div>
+    <a href="https://lepidoptera.sk/erynnis_tages">
+    <h3>Súmračník kotúčový</h3>
+      </a>
+    <p><b>Výskyt:</b> lúky, pasienky</p>
+    <p><b>Najpočetnejší výskyt:</b> suché lúky, pasienky a otvorené trávnaté plochy</p>
+    <p><b>Mesiace:</b> jún – august</p>
+    <p><b>Čas:</b> celý deň</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="jason-chochlackovy">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Parnassius_mnemosyne3.JPG/330px-Parnassius_mnemosyne3.JPG">
+  <div class="card-content">
+    <div>🌳🌾</div>
+    <a href="https://sk.wikipedia.org/wiki/Jaso%C5%88_chochla%C4%8Dkov%C3%BD">
+    <h3>Jasoň chochláčkový</h3>
+      </a>
+    <p><b>Výskyt:</b> lesy, kroviny</p>
+    <p><b>Najpočetnejší výskyt:</b> svetlé listnaté lesy, lesné okraje a kroviny s výskytom chochlačiek</p>
+    <p><b>Mesiace:</b> máj – jún</p>
+    <p><b>Čas:</b> dopoludnie</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="jason-vlkovcovy">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2012/05/09/maros_margetin_319846.jpg">
+  <div class="card-content">
+    <div>🌿🪨</div>
+    <a href="https://lepidoptera.sk/zerynthia_polyxena">
+    <h3>Pestroň vlkovcový</h3>
+      </a>
+    <p><b>Výskyt:</b> suché svahy, lúky</p>
+    <p><b>Najpočetnejší výskyt:</b> teplé suché svahy a lúky s výskytom vlkovca (Aristolochia)</p>
+    <p><b>Mesiace:</b> máj – jún</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+
+<div class="card" data-id="jason-cervnooky">
+  <img src="https://www.nahuby.sk/images/fotosutaz/2009/06/30/Parnassius-apollo/viliam_ridzon_159702.jpg">
+  <div class="card-content">
+    <div>🪨🌿</div>
+    <a href="https://lepidoptera.sk/parnassius_apollo">
+    <h3>Jasoň červenoočký</h3>
+      </a>
+    <p><b>Výskyt:</b> suché lúky, svahy</p>
+    <p><b>Najpočetnejší výskyt:</b> skalnaté a suché horské svahy s výskytom rozchodníkov</p>
+    <p><b>Mesiace:</b> máj – jún</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <p style="color:red; font-weight:bold;">
+      OHROZENÝ
+    </p>
+  </div>
+</div>
+
+  <div class="card" data-id="skvrnac-brestovcovy">
+  <img src="https://lepidoptera.sk/sites/default/files/motyle/celtis_01.jpg">
+  <div class="card-content">
+    <div>🌳🌾</div>
+    <a href="https://lepidoptera.sk/libythea_celtis">
+    <h3>Škvrnáč brestovcový</h3>
+      </a>
+    <p><b>Výskyt:</b> lesy, kroviny, teplé oblasti</p>
+    <p><b>Najpočetnejší výskyt:</b> teplé oblasti s výskytom brestovca (Celtis), najmä lesné okraje a kroviny</p>
+    <p><b>Mesiace:</b> apríl – október (zimuje ako dospelý jedinec)</p>
+    <p><b>Čas:</b> slnečné dni</p>
+    <label>
+      <input type="checkbox"> Mám ho
+    </label>
+  </div>
+</div>
+  
+
+</div>
+  <script>
+  const container = document.querySelector(".container");
+
+  document.querySelectorAll(".card").forEach(card => {
+    const checkbox = card.querySelector("input");
+    const id = card.getAttribute("data-id");
+
+    if (!checkbox || !id) return;
+
+    // načítanie stavu
+    if (localStorage.getItem(id) === "true") {
+      checkbox.checked = true;
+      card.classList.add("checked");
+      container.prepend(card); // 🔥 dá hore
+    }
+
+    checkbox.addEventListener("change", () => {
+      localStorage.setItem(id, checkbox.checked);
+      card.classList.toggle("checked");
+
+      if (checkbox.checked) {
+        container.prepend(card); // 🔥 okamžite hore
+      } else {
+        container.appendChild(card); // dole
+      }
+    });
+  });
+</script>
+</body>
+</html>
